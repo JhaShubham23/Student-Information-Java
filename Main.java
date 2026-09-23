@@ -17,12 +17,12 @@ class StudentInformation {
         double p3 = sc.nextDouble();
         double total = p1 + p2 + p3;
         double average = total / 3;
-        System.out.println("\n----- Student Information -----");
+        System.out.println("\nStudent Information");
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("Roll Number: " + rollNumber);
         System.out.println("Percentage Marks: " + p1 + "%, " + p2 + "%, " + p3 + "%");
-        System.out.println("\n----- Calculated Results -----");
+        System.out.println("\nCalculated Results");
         System.out.println("Total: " + total);
         System.out.println("Average: " + average + "%");
 
