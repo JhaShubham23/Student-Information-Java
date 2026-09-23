@@ -17,7 +17,6 @@ class StudentInformation {
         double p3 = sc.nextDouble();
         double total = p1 + p2 + p3;
         double average = total / 3;
-        // 3. Print All Information Section
         System.out.println("\n----- Student Information -----");
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
